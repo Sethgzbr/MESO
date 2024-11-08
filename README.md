@@ -58,3 +58,31 @@ NomUsuari - Mòbil:
 
 Pantalla senzilla que sembla mostrar només el nom d'usuari a la part superior.
 Probablement serveix com a capçalera o detall del compte de l'usuari.
+
+
+**DAW**
+
+![WIREFRAME DAW](https://github.com/user-attachments/assets/9e959a7b-c10e-4fef-b0d0-96ca4b91f74b)
+
+
+Inicio de sesión (Login): Incluye un formulario para que el cliente pueda ingresar su correo electrónico y su contraseña, tiene opciones para iniciar sesión con redes sociales.
+
+Registro (Sign Up): Es muy similar a la pantalla de inicio de sesión, le permite al usuario registrarse ingresando su correo, contraseña y confirmación de contraseña. También incluye opciones para registrarse mediante redes sociales.
+
+Pantallas Principales:
+
+Principal 1 - Entradas: Pantalla que le da la bienvenida al usuario. Incluye accesos directos a opciones de "Entrada" y "Salida" para que el cliente pueda registrar la entrada o salida del trabajador.
+Principal 2 - Entradas: Similar a la anterior, pero la unica diferecnia sera que este pantalla sera para que el trabajador pueda salir de su trabajo
+
+Menú:
+Muestra un menú lateral con opciones como Perfil, Control de Horario, Ausencia y Turnos. Estas opciones navegan a diferentes partes de la pagina web.
+
+Perfil: Sección donde el trabajdor puede ver su perfil, cambiar su foto y ver información personal tales como su nombre y correo electrónico.
+
+Control de Horario: Pantalla donde el trabajador puede marcar la hora de entrada o salida utilizando un temporizador y un botón Entrar.
+
+Turnos: Pantalla que muestra el nombre del usuario y de su turno
+
+Ausencia: Sección que permite al trabajdor ver y gestionar sus ausencias, donde le aparecen las asusencias Pendientes y las Procesadas.
+Ausencias Procesadas: Pantalla específica para ver las ausencias ya procesadas y sera ahi donde apareceran las que han sido aprobadas por recursos humanos o las que han sido denegadas
+
