@@ -118,10 +118,10 @@ Organizacion((ID_Organizacion), Nombre, Direccion, Tipo_Organizacion)
 Consulta : 
 Lista de organizaciones y numero de personas que pertenecen a una empresa : 
   ```sql
-  SELECT o.Nombre AS Organizacion, COUNT(p.ID_Persona) AS Numero_Personas
-  FROM Organizacion o
-  JOIN Persona p ON o.ID_Organizacion = p.ID_Organizacion
-  GROUP BY o.Nombre;
+    SELECT o.Nombre AS Organizacion, COUNT(p.ID_Persona) AS Numero_Personas
+    FROM Organizacion o
+    JOIN Persona p ON o.ID_Organizacion = p.ID_Organizacion
+    GROUP BY o.Nombre;
 ```
 
 
