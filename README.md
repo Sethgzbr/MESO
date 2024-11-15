@@ -1,4 +1,8 @@
 # Projecte_ACT1_WF
+
+SPRINT 1
+_________________________________________________________________________________________________________________________
+
 DAM:
 
 ![alt text](image.png)
@@ -58,3 +62,6 @@ NomUsuari - Mòbil:
 
 Pantalla senzilla que sembla mostrar només el nom d'usuari a la part superior.
 Probablement serveix com a capçalera o detall del compte de l'usuari.
+
+SPRINT 2
+_________________________________________________________________________________________________________
