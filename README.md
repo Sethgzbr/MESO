@@ -91,3 +91,38 @@ Ausencias Procesadas: Pantalla específica para ver las ausencias ya procesadas 
 
 **SPRINT 2**
 _________________________________________________________________________________________________________________________
+
+**Diseño base de datos:**
+
+Relacion Persona( (ID_Persona), Nombre, Apellido, Cargo, Departamento, Tipo de usuario)
+Consulta : 
+Lista de todas las personas con el cargo que pertenecen y tambien con sy departamento . 
+
+SELECT Nombre, Apellido, Cargo, Departamento
+FROM Persona;
+
+Registro ((ID_Registro), Fecha, Entrada/Salida, ID_Persona(FK), ID_Espacio(FK))
+Consulta : 
+Obtengo los registros de entrada y salida de una persona : 
+
+
+SELECT r.ID_Registro, r.Fecha, r.Entrada_Salida, p.Nombre, p.Apellido
+FROM Registro r
+JOIN Persona p ON r.ID_Persona = p.ID_Persona
+WHERE p.Nombre = 'NombreDeLaPersona' AND p.Apellido = 'ApellidoDeLaPersona';
+
+
+Organizacion((ID_Organizacion), Nombre, Direccion, Tipo_Organizacion)
+Consulta : 
+Lista de organizaciones y numero de personas que pertenecen a una empresa : 
+
+SELECT o.Nombre AS Organizacion, COUNT(p.ID_Persona) AS Numero_Personas
+FROM Organizacion o
+JOIN Persona p ON o.ID_Organizacion = p.ID_Organizacion
+GROUP BY o.Nombre;
+
+
+
+
+![image](https://github.com/user-attachments/assets/cf768bd6-e04f-4b37-9a06-7817595508d5)
+
