@@ -1,9 +1,9 @@
 # Projecte_ACT1_WF
 
-SPRINT 1
+**SPRINT 1**
 _________________________________________________________________________________________________________________________
 
-**DAM:**
+**WireFrame DAM:**
 
 ![alt text](image.png)
 
@@ -63,7 +63,7 @@ NomUsuari - Mòbil:
 Pantalla senzilla que sembla mostrar només el nom d'usuari a la part superior.
 Probablement serveix com a capçalera o detall del compte de l'usuari.
 
-**DAW:**
+**WireFrame DAW:**
 
 ![WIREFRAME DAW](https://github.com/user-attachments/assets/9e959a7b-c10e-4fef-b0d0-96ca4b91f74b)
 
@@ -89,5 +89,5 @@ Turnos: Pantalla que muestra el nombre del usuario y de su turno
 Ausencia: Sección que permite al trabajdor ver y gestionar sus ausencias, donde le aparecen las asusencias Pendientes y las Procesadas.
 Ausencias Procesadas: Pantalla específica para ver las ausencias ya procesadas y sera ahi donde apareceran las que han sido aprobadas por recursos humanos o las que han sido denegadas
 
-SPRINT 2
+**SPRINT 2**
 _________________________________________________________________________________________________________________________
