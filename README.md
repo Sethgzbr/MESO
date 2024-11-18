@@ -7,61 +7,59 @@ ________________________________________________________________________________
 
 ![alt text](image.png)
 
-Login 1 - Mòbil:
+Login 1 - Mobile:
 
-Aquesta pantalla permet als usuaris registrar-se a l'aplicació "MESO".
-Inclou camps d'entrada per: correu electrònic, nom d'usuari, número de contacte, contrasenya i confirmació de contrasenya.
-Té un botó blau per "Registrar".
-També ofereix opcions de registre ràpid amb Facebook, Google i Twitter a la part inferior.
+Esta pantalla permite a los usuarios registrarse en la aplicación "MESO".
+Incluye campos de entrada para: correo electrónico, nombre de usuario, número de contacto, contraseña y confirmación de contraseña.
+Tiene un botón azul para "Registrar".
+También incluye opciones de registro rápido con Facebook, Google y Twitter en la parte inferior.
 
-Signup 1 - Mòbil:
+Signup 1 - Mobile:
 
-Aquesta és la pantalla d'inici de sessió a "MESO".
-Inclou camps per introduir el correu electrònic o nom d'usuari i la contrasenya.
-Té un botó blau de "Iniciar Sessió".
-Igual que la pantalla de registre, ofereix opcions d'inici de sessió amb Facebook, Google i Twitter.
+Esta pantalla es la de inicio de sesión en "MESO".
+Incluye campos para ingresar el correo electrónico o nombre de usuario y la contraseña.
+Tiene un botón de "Iniciar Sesión" en azul.
+Al igual que la pantalla de registro, ofrece opciones de inicio de sesión con Facebook, Google y Twitter.
 
+Home - Mobile:
 
-Home - Mòbil:
+Pantalla de bienvenida al usuario, mostrando "Bienvenid@, _NOM_US".
+Incluye el texto "DIRECCION EMPRESA" y una sección para ver el "TIEMPO TRABAJADO".
+Tiene dos botones destacados: uno para "Nuevo aviso" y otro para "Ausencia", el usuario utilizará para informar.
 
-Pantalla de benvinguda a l'usuari, mostrant "Benvingut/da, _NOM_US".
-Inclou el text "DIRECCIÓ EMPRESA" i una secció per veure el "TEMPS TREBALLAT".
-Té dos botons destacats: un per a "Nou avís" i un altre per a "Absència", on mostra el que descriu els botons
+Home2 - Mobile:
 
-Home2 - Mòbil:
+Esta pantalla sirve para volver a la anterior 
 
-Similar a la pantalla "Home - Mòbil", però amb alguns ajustaments visuals.
-També mostra "Benvingut/da, _NOM_US", la "DIRECCIÓ EMPRESA", "TEMPS TREBALLAT" i els botons de "Nou avís" i "Absència".
+Menu - Mobile:
 
-Menu - Mòbil:
+Esta pantalla muestra el menú principal de la aplicación.
+Contiene opciones para acceder a diferentes secciones: "Perfil", "Control Horario", "Ausencia" y "Turnos", junto con el nombre de usuario en la parte superior.
 
-Aquesta pantalla mostra el menú principal de l'aplicació.
-Conté opcions per accedir a diferents seccions: "Perfil", "Control Horari", "Absència" i "Torns", juntament amb el nom d'usuari a la part superior.
+Ausencias - Mobile:
 
-Ausencias - Mòbil:
+Pantalla para gestionar las ausencias de los usuarios.
+Tiene dos secciones principales: "Pendientes" y "Procesadas" para facilitar la organización y revisión de las ausencias, para ver las faltas justificadas o no, o las que aún se stán decidiendo. 
 
-Pantalla per gestionar les absències dels usuaris.
-Té dues seccions principals: "Pendents" i "Processades" per facilitar l'organització i revisió de les absències.
+Procesadas - Mobile:
 
-Procesadas - Mòbil:
+Pantalla dedicada a mostrar las ausencias que ya han sido "Procesadas".
+Muestra las que se han justificado o no.
 
-Pantalla dedicada a mostrar les absències que ja han estat "Processades".
-Mostrarà una llista d'absències processades.
+Hour - Mobile:
 
-Hour - Mòbil:
+Pantalla para gestionar o visualizar el "Control Horario".
+Muestra un reloj digital (00:00) en formato de horas y minutos, con un botón "Entrar" debajo.
+Con esta pantalla el usuario podrá gestionar las entradas al trabajo. 
 
-Pantalla per gestionar o visualitzar el "Control Horari".
-Mostra un rellotge digital (00:00) en format d'hores i minuts, amb un botó "Entrar" a sota.
+MiPerfil - Mobile:
 
-MiPerfil - Mòbil:
+Pantalla de perfil de usuario donde se pueden gestionar los datos personales.
+Incluye un botón para cambiar la foto de perfil y campos para editar el nombre y el correo electrónico.
 
-Pantalla de perfil de l'usuari on es poden gestionar les dades personals.
-Inclou un botó per canviar la foto de perfil i camps per editar el nom i el correu electrònic.
+NomUsuari - Mobile:
 
-NomUsuari - Mòbil:
-
-Pantalla senzilla que sembla mostrar només el nom d'usuari a la part superior.
-Probablement serveix com a capçalera o detall del compte de l'usuari.
+Pantalla simple que muestra solo el nombre de usuario en la parte superior y se puede editar.
 
 **WireFrame DAW:**
 
@@ -128,3 +126,16 @@ Lista de organizaciones y numero de personas que pertenecen a una empresa :
 
 ![image](https://github.com/user-attachments/assets/cf768bd6-e04f-4b37-9a06-7817595508d5)
 
+
+**SPRINT 3**
+_________________________________________________________________________________________________________________________
+
+**DAW Prototip d'alta fidelitat (Sprint 2):**
+![image](https://github.com/user-attachments/assets/ee8362af-c183-45d6-b7bb-61411d9283b0)
+
+En el prototitp d'alta fidelitat hi ha hagut uns quans canvis, tant de pàgines com funcionalitats noves, tot el que te que veure amb el disseny es presentarà en la guía d'estils, anem pàgina per pàgina.
+
+Principal1-entrades:
+
+1.- S'ha afegit el botó en vermell "Administrador" un botó que sol està actiu en cas de que el perfil estigui inscrit com administrador dins de la base de dades.
+2.-Al costat de "Nu"
