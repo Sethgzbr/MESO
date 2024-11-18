@@ -132,10 +132,32 @@ ________________________________________________________________________________
 
 **DAW Prototip d'alta fidelitat (Sprint 2):**
 ![image](https://github.com/user-attachments/assets/ee8362af-c183-45d6-b7bb-61411d9283b0)
+![image](https://github.com/user-attachments/assets/2ff6f7ff-aa13-4ca2-b342-2a4f805133b7)
 
-En el prototitp d'alta fidelitat hi ha hagut uns quans canvis, tant de pàgines com funcionalitats noves, tot el que te que veure amb el disseny es presentarà en la guía d'estils, anem pàgina per pàgina.
 
-Principal1-entrades:
+En el prototipo de alta fidelidad ha habido algunos cambios, tanto en las páginas como en funcionalidades nuevas. Todo lo relacionado con el diseño se presentará en la guía de estilos. Vamos página por página.
 
-1.- S'ha afegit el botó en vermell "Administrador" un botó que sol està actiu en cas de que el perfil estigui inscrit com administrador dins de la base de dades.
-2.-Al costat de "Nu"
+Páginas excistentes editadas:
+
+Principal1-Entradas:
+
+1.- Se ha añadido el botón en rojo "Administrador", un botón que solo está activo en caso de que el perfil esté registrado como administrador dentro de la base de datos.
+
+2.- Al lado de los botones de "Nuevo Aviso" y "Ausencia" se ha añadido los campos descriptivos para explicar el asunto y enviarlo.
+
+CONTROL HORARIO:
+
+1.-Se ha añadido al botón "Entrar" la opción de "Salir" para poder marcar las entradas y salidas.
+
+Nuevas páginas:
+
+Se han añadido algunas páginas nuevas para los administradores, no todos, ya que dirigirán a las mismas paginas, en otras ocasiones se enviarán a páginas parecidas pero con alguna modificación. 
+
+Menu-Admin:
+Esta página es para que el administrador seleccione un empleado y pueda ver todo lo que esta relacionado con él.
+
+CONTROL HORARIO-Admin:
+Sirve para entrar a ver las entradas y salidas pero el administrador no puede modificar las entradas y salidas.
+
+AUSENCIAS PENDIENTES:
+Muestra las ausencias que quedan por decidirse si se han justificado o no.
