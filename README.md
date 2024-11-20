@@ -130,7 +130,7 @@ Lista de organizaciones y numero de personas que pertenecen a una empresa :
 **SPRINT 3**
 _________________________________________________________________________________________________________________________
 
-**DAW Prototip d'alta fidelitat (Sprint 2):**
+**Prototip de alta fidelidad web (Sprint 2):**
 ![image](https://github.com/user-attachments/assets/ee8362af-c183-45d6-b7bb-61411d9283b0)
 ![image](https://github.com/user-attachments/assets/2ff6f7ff-aa13-4ca2-b342-2a4f805133b7)
 
@@ -161,3 +161,6 @@ Sirve para entrar a ver las entradas y salidas pero el administrador no puede mo
 
 AUSENCIAS PENDIENTES:
 Muestra las ausencias que quedan por decidirse si se han justificado o no.
+
+**Prototip de alta fidelidad móbil (Sprint 2):**
+![image](https://github.com/user-attachments/assets/abfdd7b0-d81d-42b8-adcb-2bbaccd4cb86)
