@@ -6,7 +6,7 @@ def read():
         cur = conn.cursor()
         cur.execute("select * from persona")
     
-        students = cur.fetchall()
+        human = cur.fetchall()
     
     except Exception as e:
         print("ERROR", se)
@@ -15,4 +15,4 @@ def read():
     finally:
         conn.close()
     
-    return students
+    return human
