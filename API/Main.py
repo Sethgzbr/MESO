@@ -56,4 +56,3 @@ def update(id_organizacion: int,nombre: str,apellido: str,cargo: str,departament
     updated_records = db_alumne.update(id_organizacion, nombre, apellido, cargo, departamento, tipo_de_usuario)
     if updated_records == 0:
        raise HTTPException(status_code=404, detail="Items to update not found") 
-    #hola
