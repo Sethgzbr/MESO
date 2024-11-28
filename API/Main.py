@@ -55,4 +55,8 @@ async def create_human(data: human):
 def update(id_organizacion: int,nombre: str,apellido: str,cargo: str,departamento: str,tipo_de_usuario: str):
     updated_records = db_alumne.update(id_organizacion, nombre, apellido, cargo, departamento, tipo_de_usuario)
     if updated_records == 0:
+<<<<<<< HEAD
        raise HTTPException(status_code=404, detail="Items to update not found")
+=======
+       raise HTTPException(status_code=404, detail="Items to update not found") 
+>>>>>>> f9ec63c168e7c4c41712f911d8d2eae00af3f80f
