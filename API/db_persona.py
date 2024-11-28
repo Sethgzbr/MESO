@@ -26,4 +26,3 @@ def organization_existeix(IdOrganization):
         return False
     else:
         return True
-#hola 2
