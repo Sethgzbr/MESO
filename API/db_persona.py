@@ -4,25 +4,15 @@ def read():
     try:
         conn = db_client()
         cur = conn.cursor()
-        cur.execute("select * from persona")
+        cur.execute("SELECT registro.fecha, persona.nombre FROM registro JOIN persona ON registro.id_persona = persona.id_persona;")
     
         human = cur.fetchall()
     
     except Exception as e:
-        print("ERROR", se)
+        print("ERROR", e)
         return {"status": -1, "message": f"Error de connexió:{e}" }
     
     finally:
         conn.close()
     
     return human
-
-def organization_existeix(IdOrganization):
-    conn = db_client()
-    cur = conn.cursor()
-    query = "SELECT IdOrganization FROM aula WHERE IdOrganization = %s"
-    cur.execute(query, (IdOrganization,))
-    if cur.fetchone() is None:
-        return False
-    else:
-        return True
