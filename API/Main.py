@@ -3,6 +3,8 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime 
 
+import db_persona
+
 app = FastAPI()
 
 class persona(BaseModel):

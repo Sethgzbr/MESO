@@ -9,7 +9,7 @@ def read():
         human = cur.fetchall()
     
     except Exception as e:
-        print("ERROR", se)
+        print("ERROR", e)
         return {"status": -1, "message": f"Error de connexió:{e}" }
     
     finally:
