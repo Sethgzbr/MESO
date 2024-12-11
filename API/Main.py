@@ -3,13 +3,15 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from datetime import datetime 
 
+# Importamos el esquema de persona desde persona.py
+from persona import personas_schema
 import db_persona
 
 app = FastAPI()
 
 class persona(BaseModel):
     id_persona: int
-    nombre:str
+    nombre: str
     apellido: str
     cargo: str
     departamento: str
@@ -30,5 +32,4 @@ def read_root():
 
 @app.get("/persona", response_model=List[dict])
 def read_persona():
-
-    return persona.persona_schema(db_persona.read())
+    return personas_schema(db_persona.read())

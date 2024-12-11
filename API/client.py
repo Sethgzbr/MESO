@@ -1,22 +1,21 @@
-import mysql.connector
+import psycopg2
+from psycopg2 import sql
 
 def db_client():
     
     try:
-        dbname = "alumnat"
-        user = "root"
-        password = "Pa123@77"
-        host = "localhost"
-        port = "3307"
-        collation = "utf8mb4_general_ci"
+        dbname = "meso"
+        user = "marcos"
+        password = "asix"
+        host = "192.168.53.2"
+        port = "5432"
         
-        return mysql.connector.connect(
+        return psycopg2.connect(
             host = host,
             port = port,
             user = user,
             password = password,
             database = dbname,
-            collation = collation
         ) 
             
     except Exception as e:
