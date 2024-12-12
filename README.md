@@ -164,3 +164,9 @@ Muestra las ausencias que quedan por decidirse si se han justificado o no.
 
 **Prototip de alta fidelidad móbil (Sprint 2):**
 ![image](https://github.com/user-attachments/assets/abfdd7b0-d81d-42b8-adcb-2bbaccd4cb86)
+
+**SPRINT 4**
+_________________________________________________________________________________________________________________________
+
+Proba de la API:
+![Captura](https://github.com/user-attachments/assets/ec8168e7-d9ce-4d5d-81d3-d005abae5b4e)
