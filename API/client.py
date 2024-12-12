@@ -2,7 +2,6 @@ import psycopg2
 from psycopg2 import sql
 
 def db_client():
-    
     try:
         dbname = "meso"
         user = "postgres"
@@ -17,6 +16,5 @@ def db_client():
             password = password,
             database = dbname,
         ) 
-            
     except Exception as e:
-            return {"status": -1, "message": f"Error de connexió:{e}" }
+        return {"status": -1, "message": f"Error de conexión: {e}"}
