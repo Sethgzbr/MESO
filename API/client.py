@@ -5,8 +5,8 @@ def db_client():
     
     try:
         dbname = "meso"
-        user = "marcos"
-        password = "asix"
+        user = "postgres"
+        password = "pirineus"
         host = "192.168.53.2"
         port = "5432"
         
