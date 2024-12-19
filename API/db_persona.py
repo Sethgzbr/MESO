@@ -8,11 +8,12 @@ def read():
             print("Conexión fallida:", conn)
             return []
         cur = conn.cursor()
-        cur.execute("SELECT registro.fecha, persona.nombre FROM registro JOIN persona ON registro.id_persona = persona.id_persona;")
+        cur.execute("SELECT registro.fecha, persona.nombre, registro.id_persona FROM registro JOIN persona ON registro.id_persona = persona.id_persona;")
         
         # Recoger los resultados de la consulta
         result = cur.fetchall()
         print("Resultado de la consulta:", result)
+        print(result)
         return result
     
     except Exception as e:
